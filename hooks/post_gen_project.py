@@ -9,7 +9,7 @@ def remove(filepath):
         shutil.rmtree(filepath)
 
 
-create_template_project = '{{cookiecutter.create_template_project}}'
+create_template_project = '{{cookiecutter.create_template_project}}' == 'True'
 print(type(create_template_project))
 create_template_project = bool(create_template_project)
 
