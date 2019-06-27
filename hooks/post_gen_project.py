@@ -22,3 +22,4 @@ if not create_template_project:
     print(path)
     remove(path)
 
+print('end of post hook')
