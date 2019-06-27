@@ -10,7 +10,7 @@ def remove(filepath):
 
 
 create_template_project = '{{cookiecutter.create_template_project}}'
-
+create_template_project = bool(create_template_project)
 
 for i in range(10):
     print(create_template_project)
