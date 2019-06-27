@@ -13,5 +13,5 @@ create_template_project = '{{cookiecutter.create_template_project}}'
 
 if not create_template_project:
     # remove top-level file inside the generated folder
-    remove(os.path.join(os.getcwd(), '{{cookiecutter.package_name}}', 'test.py'))
+    remove(os.path.join(os.getcwd(), '{{cookiecutter.project_name}}', 'test.py'))
 
