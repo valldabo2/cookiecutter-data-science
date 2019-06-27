@@ -17,5 +17,7 @@ for i in range(10):
 
 if not create_template_project:
     # remove top-level file inside the generated folder
-    remove(os.path.join(os.getcwd(), '{{cookiecutter.project_name}}', 'test.py'))
+    path = os.path.join(os.getcwd(), '{{cookiecutter.project_name}}', 'test.py')
+    print(path)
+    remove(path)
 
