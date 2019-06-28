@@ -4,5 +4,6 @@
     "python_package_name": "Name of the python package",
     "author_name": "Your name (or your organization/company/team)",
     "description": "A short description of the project.",
+    "create_template_project": [true, false],
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"]
 }
