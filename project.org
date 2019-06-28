@@ -1,4 +1,12 @@
 * {{ cookiecutter.project_name }}
+** TODOS
+*** Get Data
+*** Reformat data
+*** Extract Features
+*** Baseline model
+*** Further develop model
+*** Evaluate model
+*** Document
 ** Project Description
    
 ** Purpose
